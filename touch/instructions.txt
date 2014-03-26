@@ -1,0 +1,11 @@
+Instructions:
+SSH into RPI
+1) Plug in Ethernet to Computer and RPI
+2) Plug in Power to Computer and RPI
+3) Go to System Preferences > Network > Ethernet
+4) Set IP Address to 192.168.1.5 (As long as it is not same address as RPI
+5) ssh into RPI by opening terminal and typing in command "ssh pi@192.168.1.6"
+6) If asked for password, it is "raspberry"
+
+Copy Python file in this src directory into the python src
+Run file to test touch
